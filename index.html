@@ -20,8 +20,8 @@
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <label for="born">Date of birth:</label>
-              <input id="born" class="form-control" type="date">
+              <label for="dob">Date of birth:</label>
+              <input id="dob" class="form-control" type="date">
             </div>
           </div>
           <div class="col-md-6">
@@ -38,6 +38,7 @@
             </div>
           </div>
           <div class="col-md-6">
+            <label>Spaceship of Choice</label>
             <div class="form-group">
               <div class="radio">
                 <label>
@@ -65,23 +66,16 @@
                   <img src="img/moya.png">
                 </label>
               </div>
+            </div>
+          </div>
+          <div class="col-md-6">
             <div class="form-group">
               <label for="color">Spacesuit Color Preference</label>
-              <input id="color" class="form-control" type="color" value="#d166ff">
-            </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-
+              <input id="color" class="form-control" type="color" value="#d166ff" onchange="myFunction(this.value)">
             </div>
           </div>
         </div>
+        <button class="btn btn-default" type="button">Liftoff!</button>
       </form>
     </div>
 
